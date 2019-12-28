@@ -1,9 +1,11 @@
-This is a python dataset toolbox for pedestrian detection task.
+# Pepople Detection 数据集预处理
 
-Convert pedestrian dataset to pascal voc or coco annotation structure. Compatible with state-of-the-art object detection method project.
+## Caltech
 
-- Caltech pedestrian dataset
-- KAIST pedestrian dataset
-- SCUT FIR pedestrian dataset
+### 用FCOS处理Caltech数据集
 
-Please note that the pydatatool need vbb annotation file to convert. You need use [datatool](https://github.com/xzhewei/datatool) to convert the txt annotation file to vbb, then use this pydatatool.
+标签处理：vbb转成json  
+pydatatool\script\vbb2json_caltech.py
+
+训练/测试图像处理：vbb转成json  
+pydatatool\script\seq2jpg.py
