@@ -7,5 +7,5 @@
 标签处理：vbb转成json  
 pydatatool\script\vbb2json_caltech.py
 
-训练/测试图像处理：seq转成jpg
+训练/测试图像处理：seq转成jpg  
 pydatatool\script\seq2jpg.py
