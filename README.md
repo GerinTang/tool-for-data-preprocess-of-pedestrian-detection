@@ -11,4 +11,4 @@ pydatatool\script\vbb2json_caltech.py
 pydatatool\script\seq2jpg.py
 
 图像数据预处理/整理：
-setup.py
+datasetup.py
